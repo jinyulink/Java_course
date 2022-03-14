@@ -1,36 +1,36 @@
-# «e¨¥
-²Ä¤@¦¸´Á¤¤¦Ò·|¦ÒÀô¹ÒÅÜ¼Æ
+# å‰è¨€
+ç¬¬ä¸€æ¬¡æœŸä¸­è€ƒæœƒè€ƒç’°å¢ƒè®Šæ•¸
 
-* class ©w¸qjava µ{¦¡ªº¥²­nÃöÁä¦r¡A¤@¯ë¨Ó»¡ class ©R¦W²Ä¤@­Ó¦r·|¥´¤j¼g
-* public ¥ş°ì
+* class å®šç¾©java ç¨‹å¼çš„å¿…è¦é—œéµå­—ï¼Œä¸€èˆ¬ä¾†èªª class å‘½åç¬¬ä¸€å€‹å­—æœƒæ‰“å¤§å¯«
+* public å…¨åŸŸ
 
-# µ{¦¡½X
-* javaµ{¦¡¤@©w­nmain method
+# ç¨‹å¼ç¢¼
+* javaç¨‹å¼ä¸€å®šè¦main method
 
 Declare a main method:
 ```java
 public static void main(String[] args){}
 ```
-* void ªí¥Ü¥»¨ç¦¡¤£·|¦^¶Ç¥ô¦ó­È
+* void è¡¨ç¤ºæœ¬å‡½å¼ä¸æœƒå›å‚³ä»»ä½•å€¼
 ```java
 System.out.println("Hello World");
 ```
-* System¤j¼g§Y¬O¦]¬°¥L¬Oclassªº¦WºÙ
+* Systemå¤§å¯«å³æ˜¯å› ç‚ºä»–æ˜¯classçš„åç¨±
 
-## print¤TºØ¼gªk
+## printä¸‰ç¨®å¯«æ³•
 1. System.out.println("Hello World");
 2. System.out.print("Hello World");
 3. System.out.printf("Hello World");
 
 ### printf()
-®æ¦¡¤Æ¦C¦L
+æ ¼å¼åŒ–åˆ—å°
 ```java
 System.out.printf("%s %s %s", "Hello ", "World ", "!");
 ```
 ```bash
 >> Hello World !
 ``` 
-* Placeholder: %s string / %d integer / %f float, double (%1.f ¥u¦L¥X¤p¼Æ«á¤@¦ì)/ %n=/n
+* Placeholder: %s string / %d integer / %f float, double (%1.f åªå°å‡ºå°æ•¸å¾Œä¸€ä½)/ %n=/n
 
 ## comments
 ```java
@@ -42,7 +42,7 @@ System.out.printf("%s %s %s", "Hello ", "World ", "!");
 ## Important rules
 1. Case sensitive
 2. Every command need to split by ';'
-3. µ{¦¡µ²ºc©y¤À¼h¤ºÁY
+3. ç¨‹å¼çµæ§‹å®œåˆ†å±¤å…§ç¸®
 
 ## Compile and execute Java programs
 1. Complie a source code
@@ -58,19 +58,19 @@ java name
 ![](image_2022-02-23_14-28-01.png)
 
 # Q&A
-1. µêÀÀ¾÷¾¹? java.exe
-2. ½sÄ¶¾¹? javac.exe / javac
-3. µ{¦¡? test.java
-4. °õ¦æ? java.class
-5. Source code? Complier? Bytecode? Interpreter? JVM? ¦Ò¸Õ·|¦Ò
+1. è™›æ“¬æ©Ÿå™¨? java.exe
+2. ç·¨è­¯å™¨? javac.exe / javac
+3. ç¨‹å¼? test.java
+4. åŸ·è¡Œ? java.class
+5. Source code? Complier? Bytecode? Interpreter? JVM? è€ƒè©¦æœƒè€ƒ
 
 ## Escape Sequence Commands
 * \n \t \r \\ \" etc.
 
-## ¤¤¤ånotepad¦sÀÉ
-¦sÀÉ®É§ïansi§Y¥i
+## ä¸­æ–‡notepadå­˜æª”
+å­˜æª”æ™‚æ”¹ansiå³å¯
 
-## ¨â¼Æ¬Û¥[
+## å…©æ•¸ç›¸åŠ 
 ```java
 import java.util.Scanner;
 public class Addition{
@@ -86,24 +86,24 @@ public class Addition{
     }
 }
 ```
-1. nextInt Åª¨ú¾ã¼Æ
-2. nextLine Åª¨ú¦r¦ê
-3. nextDouble Åª¨ú¯BÂI¼Æ
+1. nextInt è®€å–æ•´æ•¸
+2. nextLine è®€å–å­—ä¸²
+3. nextDouble è®€å–æµ®é»æ•¸
 
-## JavaÅÜ¼Æ«¬ºA
-¦³¨âºØ(¦Ò¸Õ·|¦Ò):
-* °ò¥»¸ê®Æ«¬ºA(primitive data type, PDT)
+## Javaè®Šæ•¸å‹æ…‹
+æœ‰å…©ç¨®(è€ƒè©¦æœƒè€ƒ):
+* åŸºæœ¬è³‡æ–™å‹æ…‹(primitive data type, PDT)
     1. boolean
     2. short < int < long
     3. float < double
     4. char 0~65535
     5. byte -128~127
-* ª«¥ó«¬ºA(object type, ODT)
-    6. String ¦r¦ê«¬ºA (Java ¦r¦ê«D ODT !!!)
+* ç‰©ä»¶å‹æ…‹(object type, ODT)
+    6. String å­—ä¸²å‹æ…‹ (Java å­—ä¸²é PDT !!!)
 
-## ºâ³N¹Bºâ
-**=** ¬O **«ü©w¹Bºâ¤l(Assignment Operator)** , ¦Ó«D¼Æ¾Çªºµ¥¸¹ ·|¦Ò!
+## ç®—è¡“é‹ç®—
+**=** æ˜¯ **æŒ‡å®šé‹ç®—å­(Assignment Operator)** , è€Œéæ•¸å­¸çš„ç­‰è™Ÿ æœƒè€ƒ!
 
-## Arithmetic operators ºâ³N¹Bºâ¤l
-¥[ / ´î / ­¼ / °£ / ¾l¼Æ
+## Arithmetic operators ç®—è¡“é‹ç®—å­
+åŠ  / æ¸› / ä¹˜ / é™¤ / é¤˜æ•¸
 
