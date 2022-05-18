@@ -1,0 +1,14 @@
+彩蛋:
+1. super的使用時機: 當子類別override方法時，
+子類別仍可透過super呼叫原本的method。
+2. 兩個演化機制:
+	1. subclasses can extend to include more of their own
+	 features (i.e. attributes and methods)
+	2. Subclasses also own the overridden methods from
+	their super class
+method overriding / specialization
+3. The first task in subclass's constructor : calling its direct
+superclass's constructor.
+3. 當子類別的建構子沒有明確呼叫父類別的建構子時，
+此時會呼叫父類別的沒有參數的建構子或隱性的建構子。
+4. java.lang.object
