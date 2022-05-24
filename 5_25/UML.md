@@ -4,4 +4,4 @@
 1. DMB作用條件:　DMB only works only for the common methods that are available in both super and sub.
 
 2. 子類別在任何情況需要宣告成抽象
-- If sub doesn't implement all of super's abstract methods, the sub class must be declared **abstract** also.
+  - If sub doesn't implement all of super's abstract methods, the sub class must be declared **abstract** also.
